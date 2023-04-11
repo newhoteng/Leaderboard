@@ -1,0 +1,33 @@
+{
+  "name": "leaderboard",
+  "version": "1.0.0",
+  "description": "- [📖 About the Project](https://github.com/newhoteng/Leaderboard/blob/main/README.md#open_book-awesome-books)   - [🛠️ Built With](https://github.com/newhoteng/Leaderboard/blob/main/README.md#hammer_and_wrench-build-with)     - [Tech Stack](#tech-stack)     - [Key Features](#key-features)   - [🚀 Live Demo](https://github.com/newhoteng/Leaderboard/blob/main/README.md#rocket-live-demo) - [💻 Getting Started](https://github.com/newhoteng/Leaderboard/blob/main/README.md#computer-getting-started)   - [Prerequisites](https://github.com/newhoteng/Leaderboard/blob/main/README.md#prerequisites)   - [Setup](https://github.com/newhoteng/Leaderboard/blob/main/README.md#setup)   - [Install](https://github.com/newhoteng/Leaderboard/blob/main/README.md#install) - [👥 Authors](https://github.com/newhoteng/Leaderboard/blob/main/README.md#busts_in_silhouette-authors) - [🔭 Future Features](https://github.com/newhoteng/Leaderboard/blob/main/README.md#telescope-future-features) - [🤝 Contributing](https://github.com/newhoteng/Leaderboard/blob/main/README.md#handshake-contributing) - [⭐ Show your support](https://github.com/newhoteng/Leaderboard/blob/main/README.md#star-show-your-support) - [🙏 Acknowledgements](https://github.com/newhoteng/Leaderboard/blob/main/README.md#pray-acknowledgements) - [📝 License](https://github.com/newhoteng/Leaderboard/blob/main/README.md#memo-license)",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^6.7.3",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
