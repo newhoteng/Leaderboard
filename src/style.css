@@ -54,9 +54,6 @@ h2 {
 
 .recent-scores {
   width: 50%;
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; */
 }
 
 ul li:nth-of-type(odd) {
