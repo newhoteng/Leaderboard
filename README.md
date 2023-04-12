@@ -32,6 +32,8 @@
 
 ### Key Features
   - User Interface
+  - Add Player Score
+  - Display All Scores
 
 <p align="right">(<a href="https://github.com/newhoteng/Leaderboard#readme">back to top</a>)</p>
 
@@ -76,8 +78,7 @@ npm install
 <p align="right">(<a href="https://github.com/newhoteng/Leaderboard#readme">back to top</a>)</p>
 
 ## :telescope: Future Features
-  - Add scores
-  - Refresh page
+  - None pending so far, open to suggestions.
 
 <p align="right">(<a href="https://github.com/newhoteng/Leaderboard#readme">back to top</a>)</p>
 

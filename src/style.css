@@ -28,7 +28,7 @@ li {
   height: 40px;
   display: flex;
   align-items: center;
-  padding-left: 10px;
+  justify-content: center;
 }
 
 ul {
@@ -52,7 +52,7 @@ h2 {
   height: 40px;
 }
 
-.recent-scores {
+section.recent-scores {
   width: 50%;
 }
 
@@ -83,6 +83,10 @@ input {
 .add-scores button {
   width: 80px;
   height: 40px;
+}
+
+p.success-message {
+  color: green;
 }
 
 .footer {
