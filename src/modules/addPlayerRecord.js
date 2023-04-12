@@ -1,5 +1,7 @@
 import { apiBaseUrl, gameId } from './api.js';
 
+const messageP = document.querySelector('p.success-message');
+
 export default async (user, score) => {
   const response = await fetch(`${apiBaseUrl}games/${gameId}/scores/`, {
     method: 'POST',
@@ -13,5 +15,5 @@ export default async (user, score) => {
   });
 
   const message = await response.json();
-  alert(`${message.result}`);
+  messageP.innerHTML = message.result;
 };

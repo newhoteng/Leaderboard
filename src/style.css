@@ -85,6 +85,10 @@ input {
   height: 40px;
 }
 
+p.success-message {
+  color: green;
+}
+
 .footer {
   height: 4rem;
   background-color: rgb(218, 218, 224);

@@ -8,6 +8,7 @@ const refreshButton = document.querySelector('button.refresh');
 refreshButton.addEventListener('click', () => displayScores());
 
 const form = document.getElementById('form');
+const messageP = document.querySelector('p.success-message');
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -17,4 +18,9 @@ form.addEventListener('submit', (e) => {
   addPlayerRecord(name, score);
   form.reset();
   displayScores();
+
+  setTimeout(() => {
+    messageP.style.display = 'none'
+  }, 4000);
+
 });
