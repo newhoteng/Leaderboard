@@ -20,7 +20,6 @@ form.addEventListener('submit', (e) => {
   displayScores();
 
   setTimeout(() => {
-    messageP.style.display = 'none'
+    messageP.style.display = 'none';
   }, 4000);
-
 });
