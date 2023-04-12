@@ -28,7 +28,7 @@ li {
   height: 40px;
   display: flex;
   align-items: center;
-  padding-left: 10px;
+  justify-content: center;
 }
 
 ul {
@@ -52,7 +52,7 @@ h2 {
   height: 40px;
 }
 
-.recent-scores {
+section.recent-scores {
   width: 50%;
 }
 
