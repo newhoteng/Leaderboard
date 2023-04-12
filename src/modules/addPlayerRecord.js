@@ -7,8 +7,8 @@ export default async (user, score) => {
       'Content-Type': 'application/json; charset=UTF-8',
     },
     body: JSON.stringify({
-      'user': user,
-      'score': score,
+      user,
+      score,
     }),
   });
 
