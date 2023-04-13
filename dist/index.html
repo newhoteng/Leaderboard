@@ -6,32 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Leaderboard</title>
 <script defer src="main.js"></script></head>
-<body>
-  <div class="mock-body">
-    <div class="main-container">
-      <h1>Leaderboard</h1>
-      <div class="container">
-        <section class="recent-scores">
-          <div class="recent-headline">
-            <h2>Recent scores</h2>
-            <button class="refresh" type="button">Refresh</button>
-          </div>
-          <ul class="recent-scores">
-            <!-- populated from javascript -->
-          </ul>
-        </section>
-        <section class="add-scores">
-          <h2>Add your score</h2>
-          <form id="form" action="" method="post">
-            <input type="text" placeholder="Your name" id="name" name="name" required>
-            <input type="number" placeholder="Your score" id="score" name="score" required>
-            <button type="submit">Submit</button>
-          </form>
-          <p class="success-message"></p>
-        </section>
+<body>  
+  <h1>Leaderboard</h1>
+  <div class="container">
+    <section class="recent-scores">
+      <div class="recent-headline">
+        <h2>Recent scores</h2>
+        <button class="refresh" type="button">Refresh</button>
       </div>
-    </div>
+      <ul class="recent-scores">
+        <!-- populated from javascript -->
+      </ul>
+    </section>
+    <section class="add-scores">
+      <h2>Add your score</h2>
+      <form id="form" action="" method="post">
+        <input type="text" placeholder="Your name" id="name" name="name" required>
+        <input type="number" placeholder="Your score" id="score" name="score" required>
+        <button type="submit">Submit</button>
+      </form>
+      <p class="success-message"></p>
+    </section>
   </div>
-  <footer class="footer"></footer>
+  <footer class="footer">
+    <p><em>By Harriet Oteng</em></p>
+  </footer>
 </body>
 </html>
