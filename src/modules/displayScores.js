@@ -7,12 +7,15 @@ export default async () => {
     const response = await fetch(`${apiBaseUrl}games/${gameId}/scores/`);
     const data = await response.json();
     scoresUl.innerHTML = '';
-    // change it up
     data.result
       .sort((a, b) => (b.score - a.score))
-      .forEach((playerRecord) => {
+      .forEach((playerRecord, index) => {
         scoresUl.innerHTML += `
-          <li>${playerRecord.user}: ${playerRecord.score}</li>
+          <li>
+            <span class="position">${index + 1}</span>
+            <span class="name"> ${playerRecord.user}</span>
+            <span class="score">${playerRecord.score}</span>
+          </li>
         `;
       });
   } catch (error) {
