@@ -19,6 +19,6 @@ export default async () => {
         `;
       });
   } catch (error) {
-    throw new Error('Data could not be fetched');
+    throw new Error('Something went wrong');
   }
 };
